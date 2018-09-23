@@ -21,7 +21,7 @@ public class PlayerDeath : MonoBehaviour {
         {
             transform.position = RespawnPosition;
         }
-        if (Physics2D.OverlapBox(transform.position, new Vector2(0.1f, 0.1f), 0, WhatIsBad))
+        if (Physics2D.OverlapBox(transform.position, new Vector2(0.4f, 0.4f), 0, WhatIsBad))
         {
             transform.position = RespawnPosition;
         }
